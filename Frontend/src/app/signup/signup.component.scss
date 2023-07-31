@@ -1,0 +1,44 @@
+.container {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  .mat-toolbar{
+    margin: -24px;
+    margin-bottom: 70px;
+    width: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Adjust the height as needed */
+}
+
+form {
+  max-width: 400px; /* Set the maximum width of the form */
+  width: 100%;
+  padding-top: 30px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-label {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+}

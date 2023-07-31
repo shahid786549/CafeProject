@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row fxLayout="row">
+        <span class="spacer"></span>
+        <button class="mat-dialog-close" mat-icon-button mat-dialog-close>
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-dialog-content class="mat-typography">
+    <h6>Are you soure want to {{details.message}}</h6>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+    <button mat-raised-button color="primary" (click)="handlechangePasswordAction()">
+        <mat-icon>check_circle</mat-icon>
+    </button>
+    <button mat-raised-button color="warn" mat-dia-close>
+        <mat-icon>cancle</mat-icon>No
+    </button>
+</mat-dialog-actions>
